@@ -1,0 +1,24 @@
+doctype 5
+html
+	head
+		title codebar.io - Exercise 2: Color Picker
+		include ./../static/jquery.js
+		include ./../static/script.js
+		include ./../static/style.css
+	body
+		header
+			img(#logo src='https://raw.github.com/codebar/planner/master/app/assets/images/logo.png')
+		div#container
+			h1 Color picker
+				input#color
+				button#add-to-favorite Add to favorites
+				div.row
+					div.column
+						div.preview
+					div.column
+						div#colors
+						br
+					div.color-code
+		footer
+			div#content
+				by @Codebar
