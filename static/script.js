@@ -14,9 +14,12 @@ $(document).ready(function() {
 });
 
 function setPreviewColor(color) {
-	//Takes a color param and make it the background color of the preview div
+	//Takes a color param and make it the background color of the preview divi
+	console.log("calling setPreviewColor function!");
 	$(".preview").css('background-color', color);
-	$(".color-code").css('background-color', color);
+	$(".color-code").text() = $(".preview").css('background-color', color);
+	console.log($(".color-code").text());
+	console.log($(".color-code").attr());
 }
 
 function addBox(color) {
